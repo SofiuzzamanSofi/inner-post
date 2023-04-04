@@ -1,11 +1,18 @@
 import { NextPage } from 'next'
+import Header from './components.js/Header/Header'
 
 const Page: NextPage = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div>
+       <Header/>
+      </div>
+      <div>
+        bodyyy
+      </div>
+      <div>
+        Footer
+      </div>
     </div>
   )
 }
