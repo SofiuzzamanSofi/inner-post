@@ -1,5 +1,4 @@
 import "../src/styles/globals.css"
-const withMT = require("@material-tailwind/react/utils/withMT");
 
 
 

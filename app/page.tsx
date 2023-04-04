@@ -1,5 +1,10 @@
+"use client";
 import { NextPage } from 'next'
 import Header from './components.js/Header/Header'
+ 
+import { ThemeProvider, Button } from "@material-tailwind/react";
+
+export { ThemeProvider, Button };
 
 const Page: NextPage = () => {
   return (
