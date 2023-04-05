@@ -1,9 +1,9 @@
 import { Button } from "@material-tailwind/react";
 
-const Header = () => {
+const Header : React.FC = () => {
 
   return(
-    <div>
+    <div className="flex items-center ">
       <div>
         This is header
       </div>
